@@ -48,3 +48,8 @@ h2 {
   padding-left: 1em;
   line-height: 50px;
 }
+
+.exercise li:active {
+  background-color: #0E913D;
+  color: #fff;
+}
