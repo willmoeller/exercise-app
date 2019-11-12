@@ -25,22 +25,23 @@ h2 {
   padding-right: 0.35em;
 }
 
-.superset {
-  color: #6E6E6E;
-  font-style: italic;
-  margin-top: 0.2em;
+.superset-heading {
+  margin-top: 1.5em;
+  margin-bottom: 0.3em;
 }
 
 .exercise {
-  margin: 30px 0;
+  margin: 45px 0;
 }
 
 .exercise ol {
   list-style: none;
   padding: 0;
+  margin-top: 0.2em;
+  margin-bottom: 1.2em;
 }
 
-.exercise li {
+.set {
   border: 1px solid #E0E0E0;
   border-left: 5px solid #0E913D;
   border-radius: 5px;
@@ -49,7 +50,12 @@ h2 {
   line-height: 50px;
 }
 
-.exercise li:active {
-  background-color: #0E913D;
-  color: #fff;
+.superset {
+  border: 1px solid #E0E0E0;
+  border-left: 5px solid #6E6E6E;
+  border-radius: 5px;
+  margin: 0.5em 0;
+  padding-left: 1em;
+  line-height: 50px;
+  margin-left: 20px;
 }
