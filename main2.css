@@ -31,13 +31,31 @@ h2 {
 }
 
 .exercise {
-  margin: 45px 0;
+  margin: 35px 0;
+}
+
+.exercise-heading {
+  font-size: 1.1em;
+  text-transform: uppercase;
+  font-weight: 700;
+  /* border-bottom: 2px solid black; */
+}
+
+.underline {
+  border-bottom: 2px solid #000;
+}
+
+.exercise-subheading {
+  margin-top: 0.2em;
+  margin-bottom: 0.1em;
+  /* font-style: italic; */
+  /* color: #6B6B6B; */
 }
 
 .exercise ol {
   list-style: none;
   padding: 0;
-  margin-top: 0.2em;
+  margin-top: 0.7em;
   margin-bottom: 1.2em;
 }
 
@@ -45,7 +63,7 @@ h2 {
   border: 1px solid #E0E0E0;
   border-left: 5px solid #0E913D;
   border-radius: 5px;
-  margin: 0.5em 0;
+  margin-bottom: 0.5em;
   padding-left: 1em;
   line-height: 50px;
 }
